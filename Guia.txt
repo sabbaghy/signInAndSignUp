@@ -1,0 +1,24 @@
+
+   https://www.youtube.com/watch?v=CYh08xvHjY8&list=PLriazNFBonBDrftbqhqWDmNIIkB_e6x0j&index=1
+https://www.youtube.com/watch?v=H4yHjIE3L84&t=2819s
+
+Estos son los principales elementos para crear un signin and signup con firebase.
+esta basada en los videos que se describen arriba.
+
+1.-   Crear el proyecto en firebase.
+
+2.-   Crear la aplicacion con create-react-app
+
+3.-   Instalar firebase en react
+   3.1.-    npm i --save firebase  [reactfirebase@next]
+            (tengo que verificar los componente, ya que en lo que desarrolle (copie), con solo firebase funciona)
+   
+
+
+
+1.- create-ract-app (video 1)
+2.- cleaning files
+3.- install firebase (video 2)
+3.1 crear funcionalidad del google signin
+4.- install react-router-dom (video 4)
+

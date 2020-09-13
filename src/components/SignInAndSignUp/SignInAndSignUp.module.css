@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30vw;
+  min-width: 300px;
+
+  border: 1px solid #777;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formLabel {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1rem 0;
+}
+
+.formLabelText {
+  margin: 5px 0;
+  color: #040404;
+  font-size: 1rem;
+}
+
+.formInput {
+  height: 1.5rem;
+  border: 1px solid #999;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.formInput:hover {
+  height: 1.5rem;
+  border: 1px solid #555;
+}
+
+.formInput:focus {
+  background-color: #fff;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.btn {
+  /* outline: 1px solid #040404; */
+  border: 1px solid #366dcb;
+  background-color: #fff;
+  color: #366dcb;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.25rem 0;
+}
+
+.btn:hover {
+  background-color: #366dcb;
+  color: #f1f1f1;
+}
+
+.btnGoogle {
+  border: 1px solid #cb3636;
+  background-color: #fff;
+  color: #cb3636;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.25rem 0;
+}
+
+.btnGoogle:hover {
+  border: 1px solid #cb3636;
+  color: #fff;
+  background-color: #cb3636;
+}
+
+.goToSignIn {
+  display: flex;
+  align-items: center;
+}
+
+.formToggle {
+  background-color: #fff;
+  border: none;
+  color: #366dcb;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}

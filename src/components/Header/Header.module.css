@@ -1,0 +1,39 @@
+.header {
+  width: 100vw;
+
+  background-color: #777;
+  color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  max-width: 1140px;
+}
+
+.logo {
+  font-size: 1.75rem;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.navLink {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #f4f4f4;
+}
